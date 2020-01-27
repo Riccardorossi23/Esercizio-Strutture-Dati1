@@ -26,6 +26,7 @@ namespace Esercizio_Strutture_Dati1
                 {
                     sw.WriteLine(numeri[i]);
 
+
                 }
             }
         }
