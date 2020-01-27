@@ -18,6 +18,7 @@ namespace Esercizio_Strutture_Dati1
                 while ((line = sr.ReadLine()) != null)
                 {
                     double f = Convert.ToDouble(line);
+                    numeri.Add(f);
                 }
             }
             using (StreamWriter sw = new StreamWriter("copiafile.txt", true))
